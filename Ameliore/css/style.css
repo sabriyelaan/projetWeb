@@ -1,11 +1,16 @@
+body{
+  background-color: #C0D3BB;
+}
+
+
 header {
-    border: solid;
     margin: 0;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 header .logo {
