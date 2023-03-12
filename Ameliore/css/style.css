@@ -73,8 +73,10 @@ section {
   }
   
   .section-left img {
-    max-width: 50%;
-    margin-right: 20px;
+    margin-right: 180px;
+    width: 300px;
+    border: solid;
+    border-width: 1em;
   }
   
   .section-left div {
@@ -86,8 +88,10 @@ section {
   }
   
   .section-right img {
-    max-width: 50%;
-    margin-left: 20px;
+    margin-left: 180px;
+    width: 300px;
+    border: solid;
+    border-width: 1em;
   }
   
   .section-right div {
