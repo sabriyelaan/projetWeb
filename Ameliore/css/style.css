@@ -1,7 +1,8 @@
-body{
-  background-color: #C0D3BB;
+body {
+  background: linear-gradient(145deg, #FFFFFF, #C0D3BB);
+  background-size: cover;
+  background-attachment: fixed;
 }
-
 
 header {
     margin: 0;
@@ -103,5 +104,52 @@ section {
     max-width: 50%;
     text-align: right;
   }
+
+  /** CSS TEMPORAIRE**/
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+ .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+
+  .item p {
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+      text-align: center;
+      font-size: 1.2em;
+      margin-top: 10px;
+  }
+  
+  .item-left {
+    max-width: 45%;
+    margin-right: 60%;
+    text-align: right;
+  }
+  
+  .item-right {
+    max-width: 45%;
+    margin-left: 60%;
+    text-align: left;
+  }
+  
+  .item img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      object-position: center;
+  }
+  
+  
   
   
