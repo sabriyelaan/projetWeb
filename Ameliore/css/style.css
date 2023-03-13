@@ -92,7 +92,7 @@ section {
   /** CSS TEMPORAIRE**/
   
   
-  .container {
+  .box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -133,6 +133,34 @@ section {
       object-fit: cover;
       object-position: center;
   }
+
+  .container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+  }
+  
+  .container img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .container h2 {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+  }
+  
+  .container p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+  }
+  
+
+ 
   
   
   
