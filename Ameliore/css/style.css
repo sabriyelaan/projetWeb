@@ -49,22 +49,6 @@ header ul li a.active {
     color: #C0D3BB;
 }
 
-/**.eau p{
-	width: 70%;
-	height:450px ;
-	text-align: justify;
-	border-width:5px;
-	border-style:double;
-	padding: 20px;
-	max-width:1000px;
-	border-radius:10px;
-}
-
-.mer{
-    float: left;
-	margin-right: 10px;
-}**/
-
 section {
     display: flex;
     align-items: center;
